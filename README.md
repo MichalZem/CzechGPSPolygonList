@@ -9,7 +9,7 @@ Pokud potřebujete GPS souřadnice
 odkazy vedou na OpenStreetMaps
 
 |Stát|Url Polygony GPS|URL Mapa|URL Detail|
-|---|---|
+|---|---|---|---|
 |česko|[Polygony GPS](http://polygons.openstreetmap.fr/?id=51684)|[Mapa](https://www.openstreetmap.org/relation/51684)|[Detail](https://nominatim.openstreetmap.org/details.php?place_id=177952260)
 
 ---
@@ -37,8 +37,9 @@ odkazy vedou na OpenStreetMaps
 
 
 |Okres|Kraj|Url Polygony GPS|URL Mapa||
-|---|---|---|---|
+|---|---|---|---|---|
 |Hlavní město Praha|Hlavní město Praha|[Polygony GPS](http://polygons.openstreetmap.fr/?id=439841)|[Mapa](https://www.openstreetmap.org/relation/439841)|[Detail](https://nominatim.openstreetmap.org/details.php?place_id=179928848)|
+|---
 |Benešov|Středočeský|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441521)|[Mapa](https://www.openstreetmap.org/relation/441521)|[Detail](https://nominatim.openstreetmap.org/details.php?place_id=179929929)|
 |Beroun|Středočeský|[Polygony GPS](http://polygons.openstreetmap.fr/?id=442335)|[Mapa](https://www.openstreetmap.org/relation/442335)| |
 |Kladno|Středočeský|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441012)|[Mapa](https://www.openstreetmap.org/relation/441012)| |
