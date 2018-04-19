@@ -5,6 +5,7 @@ Pokud potřebujete GPS souřadnice
 - GPS polygony hranice krajů
 - GPS polygony hranice okresů
 
+
 odkazy vedou na OpenStreetMaps
 
 |Stát|Url Polygony GPS|URL Mapa|URL Detail|
@@ -128,4 +129,4 @@ odkazy vedou na OpenStreetMaps
 |Žďár nad Sázavou|Kraj Vysočina|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441749)|[Mapa](https://www.openstreetmap.org/relation/441749)| |
 
 ---
-total: 3 Hod 
+total: 6 Hod 
