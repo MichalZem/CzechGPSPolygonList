@@ -1,4 +1,4 @@
-var Melnik=[
+var melnik=[
 {lng: 14.223294299999999, lat:50.233250499999997},
 {lng: 14.2229066, lat:50.233562900000003},
 {lng: 14.2228502, lat:50.234169399999999},
@@ -6597,12 +6597,3 @@ var Melnik=[
 {lng: 14.224346300000001, lat:50.2334502},
 {lng: 14.223294299999999, lat:50.233250499999997}
 ];
-                    var MelnikArea = new google.maps.Polygon({
-                              paths: Melnik,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    MelnikArea.setMap(map);

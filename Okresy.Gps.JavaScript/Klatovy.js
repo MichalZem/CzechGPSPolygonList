@@ -1,4 +1,4 @@
-var Klatovy=[
+var klatovy=[
 {lng: 13.0289851, lat:49.285240700000003},
 {lng: 13.028291100000001, lat:49.284085500000003},
 {lng: 13.027912799999999, lat:49.283223599999999},
@@ -10035,12 +10035,3 @@ var Klatovy=[
 {lng: 13.029388000000001, lat:49.285486200000001},
 {lng: 13.0289851, lat:49.285240700000003}
 ];
-                    var KlatovyArea = new google.maps.Polygon({
-                              paths: Klatovy,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KlatovyArea.setMap(map);

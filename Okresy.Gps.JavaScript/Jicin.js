@@ -1,4 +1,4 @@
-var Jicin=[
+var jicin=[
 {lng: 15.348485999999999, lat:50.145805000000003},
 {lng: 15.3486885, lat:50.144826600000002},
 {lng: 15.3486999, lat:50.144796300000003},
@@ -5717,12 +5717,3 @@ var Jicin=[
 {lng: 15.3490109, lat:50.145767499999998},
 {lng: 15.348485999999999, lat:50.145805000000003}
 ];
-                    var JicinArea = new google.maps.Polygon({
-                              paths: Jicin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    JicinArea.setMap(map);

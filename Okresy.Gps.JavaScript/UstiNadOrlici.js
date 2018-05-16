@@ -1,4 +1,4 @@
-var UstiNadOrlici=[
+var ustinadorlici=[
 {lng: 16.035328700000001, lat:49.959064099999999},
 {lng: 16.036014300000001, lat:49.9591767},
 {lng: 16.036330899999999, lat:49.959247300000001},
@@ -9861,12 +9861,3 @@ var UstiNadOrlici=[
 {lng: 16.035325700000001, lat:49.958835399999998},
 {lng: 16.035328700000001, lat:49.959064099999999}
 ];
-                    var UstiNadOrliciArea = new google.maps.Polygon({
-                              paths: UstiNadOrlici,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    UstiNadOrliciArea.setMap(map);

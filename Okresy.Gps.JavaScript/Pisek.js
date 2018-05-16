@@ -1,4 +1,4 @@
-var Pisek=[
+var pisek=[
 {lng: 13.932027400000001, lat:49.501345800000003},
 {lng: 13.9320144, lat:49.501140999999997},
 {lng: 13.9323523, lat:49.500798000000003},
@@ -8096,12 +8096,3 @@ var Pisek=[
 {lng: 13.9335149, lat:49.502290799999997},
 {lng: 13.932027400000001, lat:49.501345800000003}
 ];
-                    var PisekArea = new google.maps.Polygon({
-                              paths: Pisek,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PisekArea.setMap(map);

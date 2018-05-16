@@ -1,4 +1,4 @@
-var FrydekMistek=[
+var frydekmistek=[
 {lng: 18.1833545, lat:49.650978500000001},
 {lng: 18.183501100000001, lat:49.650778000000003},
 {lng: 18.183769099999999, lat:49.6504215},
@@ -5346,12 +5346,3 @@ var FrydekMistek=[
 {lng: 18.184310199999999, lat:49.651089200000001},
 {lng: 18.1833545, lat:49.650978500000001}
 ];
-                    var FrydekMistekArea = new google.maps.Polygon({
-                              paths: FrydekMistek,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    FrydekMistekArea.setMap(map);

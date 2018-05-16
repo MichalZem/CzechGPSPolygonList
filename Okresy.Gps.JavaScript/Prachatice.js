@@ -1,4 +1,4 @@
-var Prachatice=[
+var prachatice=[
 {lng: 13.546525000000001, lat:49.014811700000003},
 {lng: 13.5459598, lat:49.014014099999997},
 {lng: 13.5457096, lat:49.013536700000003},
@@ -13076,12 +13076,3 @@ var Prachatice=[
 {lng: 13.5459272, lat:49.015656200000002},
 {lng: 13.546525000000001, lat:49.014811700000003}
 ];
-                    var PrachaticeArea = new google.maps.Polygon({
-                              paths: Prachatice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PrachaticeArea.setMap(map);

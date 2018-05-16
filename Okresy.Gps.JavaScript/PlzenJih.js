@@ -1,4 +1,4 @@
-var PlzenJih=[
+var plzenjih=[
 {lng: 13.0000328, lat:49.6267055},
 {lng: 13.000024099999999, lat:49.6269311},
 {lng: 13.0000155, lat:49.627065799999997},
@@ -7967,12 +7967,3 @@ var PlzenJih=[
 {lng: 13.000347, lat:49.626716000000002},
 {lng: 13.0000328, lat:49.6267055}
 ];
-                    var PlzenJihArea = new google.maps.Polygon({
-                              paths: PlzenJih,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PlzenJihArea.setMap(map);

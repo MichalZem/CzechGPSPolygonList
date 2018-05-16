@@ -1,4 +1,4 @@
-var Blansko=[
+var blansko=[
 {lng: 16.355018900000001, lat:49.502241300000001},
 {lng: 16.355242799999999, lat:49.502222199999999},
 {lng: 16.356037400000002, lat:49.502231799999997},
@@ -8781,12 +8781,3 @@ var Blansko=[
 {lng: 16.354988599999999, lat:49.501697700000001},
 {lng: 16.355018900000001, lat:49.502241300000001}
 ];
-                    var BlanskoArea = new google.maps.Polygon({
-                              paths: Blansko,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BlanskoArea.setMap(map);

@@ -1,4 +1,4 @@
-var PrahaZapad=[
+var prahazapad=[
 {lng: 14.1241618, lat:50.052360999999998},
 {lng: 14.1239384, lat:50.052098000000001},
 {lng: 14.123478199999999, lat:50.0519806},
@@ -8052,12 +8052,3 @@ var PrahaZapad=[
 {lng: 14.1242541, lat:50.052421799999998},
 {lng: 14.1241618, lat:50.052360999999998}
 ];
-                    var PrahaZapadArea = new google.maps.Polygon({
-                              paths: PrahaZapad,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PrahaZapadArea.setMap(map);

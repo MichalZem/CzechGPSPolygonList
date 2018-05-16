@@ -1,4 +1,4 @@
-var Cheb=[
+var cheb=[
 {lng: 12.1008028, lat:50.318028900000002},
 {lng: 12.1008394, lat:50.318032700000003},
 {lng: 12.100850400000001, lat:50.318020699999998},
@@ -22279,12 +22279,3 @@ var Cheb=[
 {lng: 12.100860000000001, lat:50.318075999999998},
 {lng: 12.1008028, lat:50.318028900000002}
 ];
-                    var ChebArea = new google.maps.Polygon({
-                              paths: Cheb,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ChebArea.setMap(map);

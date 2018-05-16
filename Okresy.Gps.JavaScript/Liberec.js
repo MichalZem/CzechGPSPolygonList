@@ -1,4 +1,4 @@
-var Liberec=[
+var liberec=[
 {lng: 14.7002617, lat:50.808318300000003},
 {lng: 14.7000592, lat:50.808721200000001},
 {lng: 14.700088300000001, lat:50.809320900000003},
@@ -7073,12 +7073,3 @@ var Liberec=[
 {lng: 14.7002974, lat:50.8079885},
 {lng: 14.7002617, lat:50.808318300000003}
 ];
-                    var LiberecArea = new google.maps.Polygon({
-                              paths: Liberec,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    LiberecArea.setMap(map);

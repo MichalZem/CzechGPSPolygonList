@@ -1,4 +1,4 @@
-var Trebic=[
+var trebic=[
 {lng: 15.491865600000001, lat:49.004346400000003},
 {lng: 15.4925154, lat:49.003748600000002},
 {lng: 15.4928606, lat:49.002582199999999},
@@ -10213,12 +10213,3 @@ var Trebic=[
 {lng: 15.4918043, lat:49.004918199999999},
 {lng: 15.491865600000001, lat:49.004346400000003}
 ];
-                    var TrebicArea = new google.maps.Polygon({
-                              paths: Trebic,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    TrebicArea.setMap(map);

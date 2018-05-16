@@ -1,4 +1,4 @@
-var HradecKralove=[
+var hradeckralove=[
 {lng: 15.104229999999999, lat:50.376105600000002},
 {lng: 15.104829499999999, lat:50.376491999999999},
 {lng: 15.1051915, lat:50.376729900000001},
@@ -8079,12 +8079,3 @@ var HradecKralove=[
 {lng: 15.104552699999999, lat:50.3759789},
 {lng: 15.104229999999999, lat:50.376105600000002}
 ];
-                    var HradecKraloveArea = new google.maps.Polygon({
-                              paths: HradecKralove,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    HradecKraloveArea.setMap(map);

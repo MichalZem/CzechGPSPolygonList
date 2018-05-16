@@ -1,4 +1,4 @@
-var JindrichuvHradec=[
+var jindrichuvhradec=[
 {lng: 14.632020300000001, lat:49.085543000000001},
 {lng: 14.6326103, lat:49.085526899999998},
 {lng: 14.633773, lat:49.085214299999997},
@@ -12347,12 +12347,3 @@ var JindrichuvHradec=[
 {lng: 14.631413800000001, lat:49.084333700000002},
 {lng: 14.632020300000001, lat:49.085543000000001}
 ];
-                    var JindrichuvHradecArea = new google.maps.Polygon({
-                              paths: JindrichuvHradec,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    JindrichuvHradecArea.setMap(map);

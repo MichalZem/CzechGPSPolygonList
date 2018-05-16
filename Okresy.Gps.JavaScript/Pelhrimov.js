@@ -1,4 +1,4 @@
-var Pelhrimov=[
+var pelhrimov=[
 {lng: 14.8882172, lat:49.375843400000001},
 {lng: 14.888398799999999, lat:49.375635600000003},
 {lng: 14.888571199999999, lat:49.375493300000002},
@@ -11421,12 +11421,3 @@ var Pelhrimov=[
 {lng: 14.8881757, lat:49.375962700000002},
 {lng: 14.8882172, lat:49.375843400000001}
 ];
-                    var PelhrimovArea = new google.maps.Polygon({
-                              paths: Pelhrimov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PelhrimovArea.setMap(map);

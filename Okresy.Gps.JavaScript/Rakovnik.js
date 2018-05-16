@@ -1,4 +1,4 @@
-var Rakovnik=[
+var rakovnik=[
 {lng: 13.396748499999999, lat:50.037951700000001},
 {lng: 13.396665, lat:50.037106299999998},
 {lng: 13.3966253, lat:50.036875899999998},
@@ -6181,12 +6181,3 @@ var Rakovnik=[
 {lng: 13.397354999999999, lat:50.037724099999998},
 {lng: 13.396748499999999, lat:50.037951700000001}
 ];
-                    var RakovnikArea = new google.maps.Polygon({
-                              paths: Rakovnik,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    RakovnikArea.setMap(map);

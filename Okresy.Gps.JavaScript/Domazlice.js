@@ -1,4 +1,4 @@
-var Domazlice=[
+var domazlice=[
 {lng: 12.562224000000001, lat:49.6091038},
 {lng: 12.5622776, lat:49.609013400000002},
 {lng: 12.562360099999999, lat:49.608212600000002},
@@ -9045,12 +9045,3 @@ var Domazlice=[
 {lng: 12.562381500000001, lat:49.609113899999997},
 {lng: 12.562224000000001, lat:49.6091038}
 ];
-                    var DomazliceArea = new google.maps.Polygon({
-                              paths: Domazlice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    DomazliceArea.setMap(map);

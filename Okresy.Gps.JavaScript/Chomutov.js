@@ -1,4 +1,4 @@
-var Chomutov=[
+var chomutov=[
 {lng: 12.948188999999999, lat:50.404711900000002},
 {lng: 12.9487934, lat:50.404434899999998},
 {lng: 12.9493645, lat:50.404196599999999},
@@ -9459,12 +9459,3 @@ var Chomutov=[
 {lng: 12.948138800000001, lat:50.405528500000003},
 {lng: 12.948188999999999, lat:50.404711900000002}
 ];
-                    var ChomutovArea = new google.maps.Polygon({
-                              paths: Chomutov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ChomutovArea.setMap(map);

@@ -1,4 +1,4 @@
-var Prostejov=[
+var prostejov=[
 {lng: 16.738241599999998, lat:49.5426912},
 {lng: 16.738811200000001, lat:49.542760199999996},
 {lng: 16.738995899999999, lat:49.542773400000002},
@@ -8332,12 +8332,3 @@ var Prostejov=[
 {lng: 16.738218700000001, lat:49.542705300000002},
 {lng: 16.738241599999998, lat:49.5426912}
 ];
-                    var ProstejovArea = new google.maps.Polygon({
-                              paths: Prostejov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ProstejovArea.setMap(map);

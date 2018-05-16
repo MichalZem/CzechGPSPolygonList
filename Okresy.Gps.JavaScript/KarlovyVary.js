@@ -1,4 +1,4 @@
-var KarlovyVary=[
+var karlovyvary=[
 {lng: 12.6381534, lat:50.412347400000002},
 {lng: 12.6393377, lat:50.411583100000001},
 {lng: 12.6399528, lat:50.411430799999998},
@@ -9426,12 +9426,3 @@ var KarlovyVary=[
 {lng: 12.6382931, lat:50.412327699999999},
 {lng: 12.6381534, lat:50.412347400000002}
 ];
-                    var KarlovyVaryArea = new google.maps.Polygon({
-                              paths: KarlovyVary,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KarlovyVaryArea.setMap(map);

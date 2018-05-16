@@ -1,4 +1,4 @@
-var CeskaLipa=[
+var ceskalipa=[
 {lng: 14.343171099999999, lat:50.667907800000002},
 {lng: 14.3428345, lat:50.6673878},
 {lng: 14.342709599999999, lat:50.666808699999997},
@@ -6667,12 +6667,3 @@ var CeskaLipa=[
 {lng: 14.3433428, lat:50.668128099999997},
 {lng: 14.343171099999999, lat:50.667907800000002}
 ];
-                    var CeskaLipaArea = new google.maps.Polygon({
-                              paths: CeskaLipa,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    CeskaLipaArea.setMap(map);

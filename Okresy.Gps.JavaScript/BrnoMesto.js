@@ -1,4 +1,4 @@
-var BrnoMesto=[
+var brnomesto=[
 {lng: 16.428640399999999, lat:49.217300000000002},
 {lng: 16.427989799999999, lat:49.2166657},
 {lng: 16.4288177, lat:49.216329199999997},
@@ -3955,12 +3955,3 @@ var BrnoMesto=[
 {lng: 16.428748500000001, lat:49.217446899999999},
 {lng: 16.428640399999999, lat:49.217300000000002}
 ];
-                    var BrnoMestoArea = new google.maps.Polygon({
-                              paths: BrnoMesto,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BrnoMestoArea.setMap(map);

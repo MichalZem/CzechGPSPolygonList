@@ -1,4 +1,4 @@
-var Opava=[
+var opava=[
 {lng: 17.520011199999999, lat:49.780521999999998},
 {lng: 17.520683300000002, lat:49.780726999999999},
 {lng: 17.521073399999999, lat:49.7811369},
@@ -7316,12 +7316,3 @@ var Opava=[
 {lng: 17.5201709, lat:49.780310900000003},
 {lng: 17.520011199999999, lat:49.780521999999998}
 ];
-                    var OpavaArea = new google.maps.Polygon({
-                              paths: Opava,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    OpavaArea.setMap(map);

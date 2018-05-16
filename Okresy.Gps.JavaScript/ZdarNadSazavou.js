@@ -1,4 +1,4 @@
-var ZdarNadSazavou=[
+var zdarnadsazavou=[
 {lng: 15.760101300000001, lat:49.5302693},
 {lng: 15.7602519, lat:49.530164399999997},
 {lng: 15.7604919, lat:49.530051800000003},
@@ -11631,12 +11631,3 @@ var ZdarNadSazavou=[
 {lng: 15.7601137, lat:49.530290600000001},
 {lng: 15.760101300000001, lat:49.5302693}
 ];
-                    var ZdarNadSazavouArea = new google.maps.Polygon({
-                              paths: ZdarNadSazavou,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ZdarNadSazavouArea.setMap(map);

@@ -1,4 +1,4 @@
-var PrahaVychod=[
+var prahavychod=[
 {lng: 14.3517606, lat:50.1721881},
 {lng: 14.351654099999999, lat:50.172516100000003},
 {lng: 14.3516023, lat:50.172599699999999},
@@ -8440,12 +8440,3 @@ var PrahaVychod=[
 {lng: 14.351851099999999, lat:50.172181299999998},
 {lng: 14.3517606, lat:50.1721881}
 ];
-                    var PrahaVychodArea = new google.maps.Polygon({
-                              paths: PrahaVychod,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PrahaVychodArea.setMap(map);

@@ -1,4 +1,4 @@
-var Kladno=[
+var kladno=[
 {lng: 13.8638543, lat:50.244161499999997},
 {lng: 13.8638656, lat:50.244261999999999},
 {lng: 13.863809399999999, lat:50.244757200000002},
@@ -5477,12 +5477,3 @@ var Kladno=[
 {lng: 13.8638925, lat:50.244165199999998},
 {lng: 13.8638543, lat:50.244161499999997}
 ];
-                    var KladnoArea = new google.maps.Polygon({
-                              paths: Kladno,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KladnoArea.setMap(map);

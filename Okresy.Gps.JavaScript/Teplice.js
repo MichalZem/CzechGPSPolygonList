@@ -1,4 +1,4 @@
-var Teplice=[
+var teplice=[
 {lng: 13.5866867, lat:50.712962900000001},
 {lng: 13.586786399999999, lat:50.712862899999998},
 {lng: 13.586964800000001, lat:50.712792399999998},
@@ -6068,12 +6068,3 @@ var Teplice=[
 {lng: 13.5867079, lat:50.712970800000001},
 {lng: 13.5866867, lat:50.712962900000001}
 ];
-                    var TepliceArea = new google.maps.Polygon({
-                              paths: Teplice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    TepliceArea.setMap(map);

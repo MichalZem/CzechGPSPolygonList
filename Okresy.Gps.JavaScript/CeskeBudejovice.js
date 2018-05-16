@@ -1,4 +1,4 @@
-var CeskeBudejovice=[
+var ceskebudejovice=[
 {lng: 14.219219600000001, lat:49.000154500000001},
 {lng: 14.218677700000001, lat:48.999468999999998},
 {lng: 14.218132600000001, lat:48.998742499999999},
@@ -9393,12 +9393,3 @@ var CeskeBudejovice=[
 {lng: 14.2195158, lat:49.000579000000002},
 {lng: 14.219219600000001, lat:49.000154500000001}
 ];
-                    var CeskeBudejoviceArea = new google.maps.Polygon({
-                              paths: CeskeBudejovice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    CeskeBudejoviceArea.setMap(map);

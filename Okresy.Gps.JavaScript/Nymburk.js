@@ -1,4 +1,4 @@
-var Nymburk=[
+var nymburk=[
 {lng: 14.7680863, lat:50.203779099999998},
 {lng: 14.7681389, lat:50.2045441},
 {lng: 14.7681278, lat:50.205699699999997},
@@ -5839,12 +5839,3 @@ var Nymburk=[
 {lng: 14.7680823, lat:50.203699800000003},
 {lng: 14.7680863, lat:50.203779099999998}
 ];
-                    var NymburkArea = new google.maps.Polygon({
-                              paths: Nymburk,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    NymburkArea.setMap(map);

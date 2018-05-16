@@ -1,4 +1,4 @@
-var Vsetin=[
+var vsetin=[
 {lng: 17.777871900000001, lat:49.457696900000002},
 {lng: 17.778141600000001, lat:49.457297099999998},
 {lng: 17.7785157, lat:49.456651100000002},
@@ -6097,12 +6097,3 @@ var Vsetin=[
 {lng: 17.777694100000001, lat:49.457996799999997},
 {lng: 17.777871900000001, lat:49.457696900000002}
 ];
-                    var VsetinArea = new google.maps.Polygon({
-                              paths: Vsetin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    VsetinArea.setMap(map);

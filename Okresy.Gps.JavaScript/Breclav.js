@@ -1,4 +1,4 @@
-var Breclav=[
+var breclav=[
 {lng: 16.423734199999998, lat:48.851257599999997},
 {lng: 16.422867499999999, lat:48.850483599999997},
 {lng: 16.421808299999999, lat:48.849425599999996},
@@ -5325,12 +5325,3 @@ var Breclav=[
 {lng: 16.424385300000001, lat:48.8517625},
 {lng: 16.423734199999998, lat:48.851257599999997}
 ];
-                    var BreclavArea = new google.maps.Polygon({
-                              paths: Breclav,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BreclavArea.setMap(map);

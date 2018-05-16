@@ -1,4 +1,4 @@
-var Karvina=[
+var karvina=[
 {lng: 18.301135200000001, lat:49.877710700000002},
 {lng: 18.3016586, lat:49.8782523},
 {lng: 18.3017827, lat:49.878411999999997},
@@ -3056,12 +3056,3 @@ var Karvina=[
 {lng: 18.302855399999999, lat:49.876517399999997},
 {lng: 18.301135200000001, lat:49.877710700000002}
 ];
-                    var KarvinaArea = new google.maps.Polygon({
-                              paths: Karvina,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KarvinaArea.setMap(map);

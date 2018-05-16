@@ -1,4 +1,4 @@
-var Trutnov=[
+var trutnov=[
 {lng: 15.535199499999999, lat:50.779364200000003},
 {lng: 15.535261500000001, lat:50.779374599999997},
 {lng: 15.5391417, lat:50.7801513},
@@ -6307,12 +6307,3 @@ var Trutnov=[
 {lng: 15.535134899999999, lat:50.778813399999997},
 {lng: 15.535199499999999, lat:50.779364200000003}
 ];
-                    var TrutnovArea = new google.maps.Polygon({
-                              paths: Trutnov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    TrutnovArea.setMap(map);

@@ -1,4 +1,4 @@
-var Svitavy=[
+var svitavy=[
 {lng: 16.0634482, lat:49.753957},
 {lng: 16.063157400000001, lat:49.754722700000002},
 {lng: 16.062687499999999, lat:49.755115500000002},
@@ -10425,12 +10425,3 @@ var Svitavy=[
 {lng: 16.063620499999999, lat:49.753948899999997},
 {lng: 16.0634482, lat:49.753957}
 ];
-                    var SvitavyArea = new google.maps.Polygon({
-                              paths: Svitavy,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    SvitavyArea.setMap(map);

@@ -1,4 +1,4 @@
-var Bruntal=[
+var bruntal=[
 {lng: 17.147116700000002, lat:49.877939400000002},
 {lng: 17.148180700000001, lat:49.877329600000003},
 {lng: 17.148728500000001, lat:49.877210699999999},
@@ -8743,12 +8743,3 @@ var Bruntal=[
 {lng: 17.147017900000002, lat:49.878163399999998},
 {lng: 17.147116700000002, lat:49.877939400000002}
 ];
-                    var BruntalArea = new google.maps.Polygon({
-                              paths: Bruntal,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BruntalArea.setMap(map);

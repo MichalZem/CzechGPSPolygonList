@@ -1,4 +1,4 @@
-var Semily=[
+var semily=[
 {lng: 15.0757019, lat:50.562674299999998},
 {lng: 15.075990600000001, lat:50.562627800000001},
 {lng: 15.0763921, lat:50.562771099999999},
@@ -6448,12 +6448,3 @@ var Semily=[
 {lng: 15.0756643, lat:50.562387600000001},
 {lng: 15.0757019, lat:50.562674299999998}
 ];
-                    var SemilyArea = new google.maps.Polygon({
-                              paths: Semily,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    SemilyArea.setMap(map);

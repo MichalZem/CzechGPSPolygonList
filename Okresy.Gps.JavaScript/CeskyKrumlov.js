@@ -1,4 +1,4 @@
-var CeskyKrumlov=[
+var ceskykrumlov=[
 {lng: 13.915006, lat:48.743948000000003},
 {lng: 13.9157191, lat:48.7431135},
 {lng: 13.916271, lat:48.742599300000002},
@@ -11146,12 +11146,3 @@ var CeskyKrumlov=[
 {lng: 13.9189138, lat:48.742348100000001},
 {lng: 13.915006, lat:48.743948000000003}
 ];
-                    var CeskyKrumlovArea = new google.maps.Polygon({
-                              paths: CeskyKrumlov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    CeskyKrumlovArea.setMap(map);

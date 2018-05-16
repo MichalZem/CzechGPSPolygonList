@@ -1,4 +1,4 @@
-var HlavnimestoPraha=[
+var hlavnimestopraha=[
 {lng: 14.240678300000001, lat:50.111282299999999},
 {lng: 14.2417189, lat:50.111264200000001},
 {lng: 14.242024000000001, lat:50.111240299999999},
@@ -3553,12 +3553,3 @@ var HlavnimestoPraha=[
 {lng: 14.2404917, lat:50.1112976},
 {lng: 14.240678300000001, lat:50.111282299999999}
 ];
-                    var HlavnimestoPrahaArea = new google.maps.Polygon({
-                              paths: HlavnimestoPraha,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    HlavnimestoPrahaArea.setMap(map);

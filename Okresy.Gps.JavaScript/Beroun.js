@@ -1,4 +1,4 @@
-var Beroun=[
+var beroun=[
 {lng: 13.781602899999999, lat:49.759824999999999},
 {lng: 13.7818127, lat:49.761192999999999},
 {lng: 13.7821064, lat:49.765589599999998},
@@ -4796,12 +4796,3 @@ var Beroun=[
 {lng: 13.781764900000001, lat:49.759762700000003},
 {lng: 13.781602899999999, lat:49.759824999999999}
 ];
-                    var BerounArea = new google.maps.Polygon({
-                              paths: Beroun,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BerounArea.setMap(map);

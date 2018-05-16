@@ -1,4 +1,4 @@
-var Sumperk=[
+var sumperk=[
 {lng: 16.711994300000001, lat:49.999502},
 {lng: 16.712541900000002, lat:49.999107600000002},
 {lng: 16.712765900000001, lat:49.998782200000001},
@@ -7213,12 +7213,3 @@ var Sumperk=[
 {lng: 16.712630799999999, lat:49.9997598},
 {lng: 16.711994300000001, lat:49.999502}
 ];
-                    var SumperkArea = new google.maps.Polygon({
-                              paths: Sumperk,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    SumperkArea.setMap(map);

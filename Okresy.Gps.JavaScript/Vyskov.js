@@ -1,4 +1,4 @@
-var Vyskov=[
+var vyskov=[
 {lng: 16.757800899999999, lat:49.119643099999998},
 {lng: 16.758737700000001, lat:49.120035299999998},
 {lng: 16.759303800000001, lat:49.1202282},
@@ -6760,12 +6760,3 @@ var Vyskov=[
 {lng: 16.757854399999999, lat:49.1195795},
 {lng: 16.757800899999999, lat:49.119643099999998}
 ];
-                    var VyskovArea = new google.maps.Polygon({
-                              paths: Vyskov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    VyskovArea.setMap(map);

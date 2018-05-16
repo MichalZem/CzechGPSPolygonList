@@ -1,4 +1,4 @@
-var Chrudim=[
+var chrudim=[
 {lng: 15.4970999, lat:49.8611042},
 {lng: 15.497090399999999, lat:49.861081800000001},
 {lng: 15.497330699999999, lat:49.860880100000003},
@@ -7175,12 +7175,3 @@ var Chrudim=[
 {lng: 15.497101000000001, lat:49.861173399999998},
 {lng: 15.4970999, lat:49.8611042}
 ];
-                    var ChrudimArea = new google.maps.Polygon({
-                              paths: Chrudim,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ChrudimArea.setMap(map);

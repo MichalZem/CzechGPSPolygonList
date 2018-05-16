@@ -1,4 +1,4 @@
-var Pardubice=[
+var pardubice=[
 {lng: 15.364831499999999, lat:50.040397599999999},
 {lng: 15.3642732, lat:50.040404799999997},
 {lng: 15.3642957, lat:50.0404616},
@@ -6114,12 +6114,3 @@ var Pardubice=[
 {lng: 15.365188699999999, lat:50.0403308},
 {lng: 15.364831499999999, lat:50.040397599999999}
 ];
-                    var PardubiceArea = new google.maps.Polygon({
-                              paths: Pardubice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PardubiceArea.setMap(map);

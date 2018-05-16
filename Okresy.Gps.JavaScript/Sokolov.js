@@ -1,4 +1,4 @@
-var Sokolov=[
+var sokolov=[
 {lng: 12.382352300000001, lat:50.288988799999998},
 {lng: 12.382603400000001, lat:50.288710799999997},
 {lng: 12.383010199999999, lat:50.288432399999998},
@@ -6831,12 +6831,3 @@ var Sokolov=[
 {lng: 12.382808000000001, lat:50.289058400000002},
 {lng: 12.382352300000001, lat:50.288988799999998}
 ];
-                    var SokolovArea = new google.maps.Polygon({
-                              paths: Sokolov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    SokolovArea.setMap(map);

@@ -1,4 +1,4 @@
-var MladaBoleslav=[
+var mladaboleslav=[
 {lng: 14.638571799999999, lat:50.300353200000004},
 {lng: 14.6397917, lat:50.300218600000001},
 {lng: 14.6401079, lat:50.300205099999999},
@@ -6341,12 +6341,3 @@ var MladaBoleslav=[
 {lng: 14.6385936, lat:50.3003784},
 {lng: 14.638571799999999, lat:50.300353200000004}
 ];
-                    var MladaBoleslavArea = new google.maps.Polygon({
-                              paths: MladaBoleslav,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    MladaBoleslavArea.setMap(map);

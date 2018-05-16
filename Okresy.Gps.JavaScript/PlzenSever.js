@@ -1,4 +1,4 @@
-var PlzenSever=[
+var plzensever=[
 {lng: 12.9571311, lat:49.973025399999997},
 {lng: 12.957130899999999, lat:49.973066799999998},
 {lng: 12.957225299999999, lat:49.973235600000002},
@@ -8004,12 +8004,3 @@ var PlzenSever=[
 {lng: 12.9571346, lat:49.972836200000003},
 {lng: 12.9571311, lat:49.973025399999997}
 ];
-                    var PlzenSeverArea = new google.maps.Polygon({
-                              paths: PlzenSever,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PlzenSeverArea.setMap(map);

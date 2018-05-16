@@ -1,4 +1,4 @@
-var RychnovNadKneznou=[
+var rychnovnadkneznou=[
 {lng: 15.970377900000001, lat:50.302292899999998},
 {lng: 15.970957, lat:50.302440400000002},
 {lng: 15.971935500000001, lat:50.302693900000001},
@@ -5105,12 +5105,3 @@ var RychnovNadKneznou=[
 {lng: 15.970388099999999, lat:50.302275799999997},
 {lng: 15.970377900000001, lat:50.302292899999998}
 ];
-                    var RychnovNadKneznouArea = new google.maps.Polygon({
-                              paths: RychnovNadKneznou,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    RychnovNadKneznouArea.setMap(map);

@@ -1,4 +1,4 @@
-var Jihlava=[
+var jihlava=[
 {lng: 15.2532151, lat:49.20646},
 {lng: 15.253181, lat:49.2064582},
 {lng: 15.252766599999999, lat:49.206607900000002},
@@ -12863,12 +12863,3 @@ var Jihlava=[
 {lng: 15.2533037, lat:49.2066357},
 {lng: 15.2532151, lat:49.20646}
 ];
-                    var JihlavaArea = new google.maps.Polygon({
-                              paths: Jihlava,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    JihlavaArea.setMap(map);

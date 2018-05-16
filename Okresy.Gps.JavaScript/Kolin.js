@@ -1,4 +1,4 @@
-var Kolin=[
+var kolin=[
 {lng: 14.7363488, lat:50.094186299999997},
 {lng: 14.736450400000001, lat:50.094149899999998},
 {lng: 14.7369723, lat:50.093845299999998},
@@ -7731,12 +7731,3 @@ var Kolin=[
 {lng: 14.7363207, lat:50.094249499999997},
 {lng: 14.7363488, lat:50.094186299999997}
 ];
-                    var KolinArea = new google.maps.Polygon({
-                              paths: Kolin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KolinArea.setMap(map);

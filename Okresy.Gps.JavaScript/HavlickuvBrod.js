@@ -1,4 +1,4 @@
-var HavlickuvBrod=[
+var havlickuvbrod=[
 {lng: 15.1775994, lat:49.696420000000003},
 {lng: 15.1789202, lat:49.696525999999999},
 {lng: 15.178978000000001, lat:49.696873799999999},
@@ -9317,12 +9317,3 @@ var HavlickuvBrod=[
 {lng: 15.178308700000001, lat:49.695782199999996},
 {lng: 15.1775994, lat:49.696420000000003}
 ];
-                    var HavlickuvBrodArea = new google.maps.Polygon({
-                              paths: HavlickuvBrod,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    HavlickuvBrodArea.setMap(map);

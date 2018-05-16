@@ -1,4 +1,4 @@
-var Pribram=[
+var pribram=[
 {lng: 13.7384521, lat:49.561496699999999},
 {lng: 13.738530300000001, lat:49.561537399999999},
 {lng: 13.7391714, lat:49.561817499999997},
@@ -9025,12 +9025,3 @@ var Pribram=[
 {lng: 13.738474, lat:49.561625999999997},
 {lng: 13.7384521, lat:49.561496699999999}
 ];
-                    var PribramArea = new google.maps.Polygon({
-                              paths: Pribram,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PribramArea.setMap(map);

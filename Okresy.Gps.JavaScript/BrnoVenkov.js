@@ -1,4 +1,4 @@
-var BrnoVenkov=[
+var brnovenkov=[
 {lng: 16.648932800000001, lat:49.286741599999999},
 {lng: 16.648964599999999, lat:49.286489099999997},
 {lng: 16.649930600000001, lat:49.286368099999997},
@@ -13160,12 +13160,3 @@ var BrnoVenkov=[
 {lng: 16.648913, lat:49.286707999999997},
 {lng: 16.648932800000001, lat:49.286741599999999}
 ];
-                    var BrnoVenkovArea = new google.maps.Polygon({
-                              paths: BrnoVenkov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BrnoVenkovArea.setMap(map);

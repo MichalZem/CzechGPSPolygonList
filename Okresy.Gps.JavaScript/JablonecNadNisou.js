@@ -1,4 +1,4 @@
-var JablonecNadNisou=[
+var jablonecnadnisou=[
 {lng: 15.1040195, lat:50.683748799999996},
 {lng: 15.104336699999999, lat:50.683760999999997},
 {lng: 15.104317399999999, lat:50.683963800000001},
@@ -4400,12 +4400,3 @@ var JablonecNadNisou=[
 {lng: 15.1039406, lat:50.6836482},
 {lng: 15.1040195, lat:50.683748799999996}
 ];
-                    var JablonecNadNisouArea = new google.maps.Polygon({
-                              paths: JablonecNadNisou,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    JablonecNadNisouArea.setMap(map);

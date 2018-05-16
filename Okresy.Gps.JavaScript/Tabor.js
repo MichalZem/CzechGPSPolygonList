@@ -1,4 +1,4 @@
-var Tabor=[
+var tabor=[
 {lng: 14.3972426, lat:49.326268300000002},
 {lng: 14.396948999999999, lat:49.326098700000003},
 {lng: 14.3965213, lat:49.325876700000002},
@@ -10987,12 +10987,3 @@ var Tabor=[
 {lng: 14.3978383, lat:49.326236999999999},
 {lng: 14.3972426, lat:49.326268300000002}
 ];
-                    var TaborArea = new google.maps.Polygon({
-                              paths: Tabor,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    TaborArea.setMap(map);

@@ -1,4 +1,4 @@
-var UherskeHradiste=[
+var uherskehradiste=[
 {lng: 17.213493199999998, lat:49.092936000000002},
 {lng: 17.213796800000001, lat:49.091730699999999},
 {lng: 17.213958000000002, lat:49.091130999999997},
@@ -6707,12 +6707,3 @@ var UherskeHradiste=[
 {lng: 17.213625400000002, lat:49.0930137},
 {lng: 17.213493199999998, lat:49.092936000000002}
 ];
-                    var UherskeHradisteArea = new google.maps.Polygon({
-                              paths: UherskeHradiste,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    UherskeHradisteArea.setMap(map);

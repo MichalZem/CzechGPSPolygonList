@@ -1,4 +1,4 @@
-var Tachov=[
+var tachov=[
 {lng: 12.4015453, lat:49.758589399999998},
 {lng: 12.4015357, lat:49.758699200000002},
 {lng: 12.4015348, lat:49.759136599999998},
@@ -9090,12 +9090,3 @@ var Tachov=[
 {lng: 12.4015579, lat:49.758456700000004},
 {lng: 12.4015453, lat:49.758589399999998}
 ];
-                    var TachovArea = new google.maps.Polygon({
-                              paths: Tachov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    TachovArea.setMap(map);

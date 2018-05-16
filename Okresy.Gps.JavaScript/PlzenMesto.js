@@ -1,4 +1,4 @@
-var PlzenMesto=[
+var plzenmesto=[
 {lng: 13.2708855, lat:49.7781448},
 {lng: 13.2704778, lat:49.777722199999999},
 {lng: 13.270246999999999, lat:49.777502400000003},
@@ -3479,12 +3479,3 @@ var PlzenMesto=[
 {lng: 13.271198399999999, lat:49.778013100000003},
 {lng: 13.2708855, lat:49.7781448}
 ];
-                    var PlzenMestoArea = new google.maps.Polygon({
-                              paths: PlzenMesto,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PlzenMestoArea.setMap(map);

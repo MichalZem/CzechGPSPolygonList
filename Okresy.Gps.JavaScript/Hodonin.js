@@ -1,4 +1,4 @@
-var Hodonin=[
+var hodonin=[
 {lng: 16.894843000000002, lat:49.035803000000001},
 {lng: 16.895399300000001, lat:49.035672499999997},
 {lng: 16.895718599999999, lat:49.035663},
@@ -6657,12 +6657,3 @@ var Hodonin=[
 {lng: 16.894787699999998, lat:49.036003700000002},
 {lng: 16.894843000000002, lat:49.035803000000001}
 ];
-                    var HodoninArea = new google.maps.Polygon({
-                              paths: Hodonin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    HodoninArea.setMap(map);

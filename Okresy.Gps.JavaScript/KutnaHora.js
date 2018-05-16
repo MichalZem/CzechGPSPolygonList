@@ -1,4 +1,4 @@
-var KutnaHora=[
+var kutnahora=[
 {lng: 14.904279600000001, lat:49.892733200000002},
 {lng: 14.904750399999999, lat:49.893022000000002},
 {lng: 14.904766800000001, lat:49.893032400000003},
@@ -7529,12 +7529,3 @@ var KutnaHora=[
 {lng: 14.9045407, lat:49.892649599999999},
 {lng: 14.904279600000001, lat:49.892733200000002}
 ];
-                    var KutnaHoraArea = new google.maps.Polygon({
-                              paths: KutnaHora,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KutnaHoraArea.setMap(map);

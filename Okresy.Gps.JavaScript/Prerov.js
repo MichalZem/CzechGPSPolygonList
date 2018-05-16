@@ -1,4 +1,4 @@
-var Prerov=[
+var prerov=[
 {lng: 17.225260899999999, lat:49.401060700000002},
 {lng: 17.229230999999999, lat:49.400468400000001},
 {lng: 17.230947700000002, lat:49.399759400000001},
@@ -9169,12 +9169,3 @@ var Prerov=[
 {lng: 17.225261799999998, lat:49.401083499999999},
 {lng: 17.225260899999999, lat:49.401060700000002}
 ];
-                    var PrerovArea = new google.maps.Polygon({
-                              paths: Prerov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    PrerovArea.setMap(map);

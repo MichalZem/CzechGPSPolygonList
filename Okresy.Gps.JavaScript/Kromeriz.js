@@ -1,4 +1,4 @@
-var Kromeriz=[
+var kromeriz=[
 {lng: 17.1198342, lat:49.086050999999998},
 {lng: 17.119527900000001, lat:49.086075899999997},
 {lng: 17.1193165, lat:49.086257000000003},
@@ -8229,12 +8229,3 @@ var Kromeriz=[
 {lng: 17.119767100000001, lat:49.085910900000002},
 {lng: 17.1198342, lat:49.086050999999998}
 ];
-                    var KromerizArea = new google.maps.Polygon({
-                              paths: Kromeriz,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    KromerizArea.setMap(map);

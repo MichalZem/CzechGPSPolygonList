@@ -1,4 +1,4 @@
-var Litomerice=[
+var litomerice=[
 {lng: 13.868979, lat:50.494661299999997},
 {lng: 13.868856299999999, lat:50.4949175},
 {lng: 13.8687288, lat:50.495575100000003},
@@ -6842,12 +6842,3 @@ var Litomerice=[
 {lng: 13.8690529, lat:50.494641700000003},
 {lng: 13.868979, lat:50.494661299999997}
 ];
-                    var LitomericeArea = new google.maps.Polygon({
-                              paths: Litomerice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    LitomericeArea.setMap(map);

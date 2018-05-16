@@ -1,4 +1,4 @@
-var Louny=[
+var louny=[
 {lng: 13.2280917, lat:50.134003900000003},
 {lng: 13.228207100000001, lat:50.134103699999997},
 {lng: 13.228673300000001, lat:50.134088300000002},
@@ -8085,12 +8085,3 @@ var Louny=[
 {lng: 13.229312500000001, lat:50.133702},
 {lng: 13.2280917, lat:50.134003900000003}
 ];
-                    var LounyArea = new google.maps.Polygon({
-                              paths: Louny,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    LounyArea.setMap(map);

@@ -1,4 +1,4 @@
-var Nachod=[
+var nachod=[
 {lng: 15.799064100000001, lat:50.3467506},
 {lng: 15.798832300000001, lat:50.347228800000003},
 {lng: 15.7987343, lat:50.347687499999999},
@@ -6278,12 +6278,3 @@ var Nachod=[
 {lng: 15.799426800000001, lat:50.346147700000003},
 {lng: 15.799064100000001, lat:50.3467506}
 ];
-                    var NachodArea = new google.maps.Polygon({
-                              paths: Nachod,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    NachodArea.setMap(map);

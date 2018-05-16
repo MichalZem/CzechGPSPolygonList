@@ -1,4 +1,4 @@
-var Olomouc=[
+var olomouc=[
 {lng: 16.826316800000001, lat:49.6703671},
 {lng: 16.8263234, lat:49.6704504},
 {lng: 16.8263225, lat:49.670571099999997},
@@ -10663,12 +10663,3 @@ var Olomouc=[
 {lng: 16.826793200000001, lat:49.669912799999999},
 {lng: 16.826316800000001, lat:49.6703671}
 ];
-                    var OlomoucArea = new google.maps.Polygon({
-                              paths: Olomouc,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    OlomoucArea.setMap(map);

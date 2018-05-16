@@ -1,4 +1,4 @@
-var NovyJicin=[
+var novyjicin=[
 {lng: 17.682908300000001, lat:49.708848099999997},
 {lng: 17.682969100000001, lat:49.708924600000003},
 {lng: 17.6830043, lat:49.708992000000002},
@@ -6736,12 +6736,3 @@ var NovyJicin=[
 {lng: 17.6828793, lat:49.708811400000002},
 {lng: 17.682908300000001, lat:49.708848099999997}
 ];
-                    var NovyJicinArea = new google.maps.Polygon({
-                              paths: NovyJicin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    NovyJicinArea.setMap(map);

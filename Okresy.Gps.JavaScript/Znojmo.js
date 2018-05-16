@@ -1,4 +1,4 @@
-var Znojmo=[
+var znojmo=[
 {lng: 15.5424246, lat:48.907736900000003},
 {lng: 15.543358700000001, lat:48.907527299999998},
 {lng: 15.5444187, lat:48.907334800000001},
@@ -5896,12 +5896,3 @@ var Znojmo=[
 {lng: 15.542446, lat:48.907779699999999},
 {lng: 15.5424246, lat:48.907736900000003}
 ];
-                    var ZnojmoArea = new google.maps.Polygon({
-                              paths: Znojmo,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ZnojmoArea.setMap(map);

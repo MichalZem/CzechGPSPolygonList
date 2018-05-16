@@ -1,4 +1,4 @@
-var UstiNadLabem=[
+var ustinadlabem=[
 {lng: 13.884165899999999, lat:50.739046399999999},
 {lng: 13.885176400000001, lat:50.738743200000002},
 {lng: 13.885786299999999, lat:50.738527599999998},
@@ -5141,12 +5141,3 @@ var UstiNadLabem=[
 {lng: 13.8847536, lat:50.739182100000001},
 {lng: 13.884165899999999, lat:50.739046399999999}
 ];
-                    var UstiNadLabemArea = new google.maps.Polygon({
-                              paths: UstiNadLabem,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    UstiNadLabemArea.setMap(map);

@@ -1,4 +1,4 @@
-var Decin=[
+var decin=[
 {lng: 14.0433699, lat:50.780825800000002},
 {lng: 14.0437402, lat:50.781594900000002},
 {lng: 14.0441725, lat:50.781933700000003},
@@ -9505,12 +9505,3 @@ var Decin=[
 {lng: 14.0431323, lat:50.781022900000004},
 {lng: 14.0433699, lat:50.780825800000002}
 ];
-                    var DecinArea = new google.maps.Polygon({
-                              paths: Decin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    DecinArea.setMap(map);

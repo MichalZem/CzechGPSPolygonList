@@ -1,4 +1,4 @@
-var Benesov=[
+var benesov=[
 {lng: 14.405279699999999, lat:49.747317299999999},
 {lng: 14.404229000000001, lat:49.747890099999999},
 {lng: 14.403635700000001, lat:49.748691700000002},
@@ -9845,12 +9845,3 @@ var Benesov=[
 {lng: 14.4066539, lat:49.746926999999999},
 {lng: 14.405279699999999, lat:49.747317299999999}
 ];
-                    var BenesovArea = new google.maps.Polygon({
-                              paths: Benesov,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    BenesovArea.setMap(map);

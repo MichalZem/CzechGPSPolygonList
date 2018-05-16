@@ -1,4 +1,4 @@
-var OstravaMesto=[
+var ostravamesto=[
 {lng: 18.0455966, lat:49.818341799999999},
 {lng: 18.045531199999999, lat:49.818314999999998},
 {lng: 18.045811700000002, lat:49.817879599999998},
@@ -4822,12 +4822,3 @@ var OstravaMesto=[
 {lng: 18.045832099999998, lat:49.818429399999999},
 {lng: 18.0455966, lat:49.818341799999999}
 ];
-                    var OstravaMestoArea = new google.maps.Polygon({
-                              paths: OstravaMesto,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    OstravaMestoArea.setMap(map);

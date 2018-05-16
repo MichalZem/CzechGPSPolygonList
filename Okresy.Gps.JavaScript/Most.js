@@ -1,4 +1,4 @@
-var Most=[
+var most=[
 {lng: 13.364242300000001, lat:50.617997199999998},
 {lng: 13.3641495, lat:50.617888899999997},
 {lng: 13.3638437, lat:50.617842199999998},
@@ -5106,12 +5106,3 @@ var Most=[
 {lng: 13.364576899999999, lat:50.617846200000002},
 {lng: 13.364242300000001, lat:50.617997199999998}
 ];
-                    var MostArea = new google.maps.Polygon({
-                              paths: Most,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    MostArea.setMap(map);

@@ -1,4 +1,4 @@
-var Zlin=[
+var zlin=[
 {lng: 17.403790300000001, lat:49.1897813},
 {lng: 17.403718900000001, lat:49.189828300000002},
 {lng: 17.403559999999999, lat:49.189928899999998},
@@ -7717,12 +7717,3 @@ var Zlin=[
 {lng: 17.403987499999999, lat:49.189706999999999},
 {lng: 17.403790300000001, lat:49.1897813}
 ];
-                    var ZlinArea = new google.maps.Polygon({
-                              paths: Zlin,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    ZlinArea.setMap(map);

@@ -1,4 +1,4 @@
-var Rokycany=[
+var rokycany=[
 {lng: 13.4973694, lat:49.732355099999999},
 {lng: 13.4971707, lat:49.732710300000001},
 {lng: 13.496093800000001, lat:49.734881899999998},
@@ -3933,12 +3933,3 @@ var Rokycany=[
 {lng: 13.4977433, lat:49.732298100000001},
 {lng: 13.4973694, lat:49.732355099999999}
 ];
-                    var RokycanyArea = new google.maps.Polygon({
-                              paths: Rokycany,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    RokycanyArea.setMap(map);

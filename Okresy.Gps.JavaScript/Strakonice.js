@@ -1,4 +1,4 @@
-var Strakonice=[
+var strakonice=[
 {lng: 13.689636699999999, lat:49.159910000000004},
 {lng: 13.689660200000001, lat:49.1595248},
 {lng: 13.689844900000001, lat:49.159176100000003},
@@ -9022,12 +9022,3 @@ var Strakonice=[
 {lng: 13.6896655, lat:49.159888199999997},
 {lng: 13.689636699999999, lat:49.159910000000004}
 ];
-                    var StrakoniceArea = new google.maps.Polygon({
-                              paths: Strakonice,
-                              strokeColor: '#0000FF',
-                              strokeOpacity: 0.8,
-                              strokeWeight: 2,
-                              fillColor: '#FFFFFF',
-                              fillOpacity: 0.35
-                            });
-                    StrakoniceArea.setMap(map);
