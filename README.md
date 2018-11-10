@@ -1,4 +1,5 @@
 ﻿# URL Odkazy na stránky s GPS souřadnicemi polygonů České republiky, Kraje, Okresy
+Pro jeden projekt jsem potřeboval GPS souřadnice a nenašel, nakonec jsem si tedy udělal sám, a dávám ke sdílení.
 
 Pokud potřebujete GPS souřadnice 
 - GPS polygony hranic české republiky
