@@ -87,8 +87,8 @@ odkazy vedou na OpenStreetMaps
 |Liberec|Liberecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441329)|[Mapa](https://www.openstreetmap.org/relation/441329)| |	   
 |Semily|Liberecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=442423)|[Mapa](https://www.openstreetmap.org/relation/442423)| |	   
 |---
-|Jičín|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441917)|[Mapa](https://www.openstreetmap.org/relation/441917)| |	   
-|Hradec Králové|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441987)|[Mapa](https://www.openstreetmap.org/relation/441987)| |	   
+|Jičín|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441987)|[Mapa](https://www.openstreetmap.org/relation/441987)| |	   
+|Hradec Králové|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441917)|[Mapa](https://www.openstreetmap.org/relation/441917)| |	   
 |Náchod|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441794)|[Mapa](https://www.openstreetmap.org/relation/441794)| |	   
 |Rychnov nad Kněžnou|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=441223)|[Mapa](https://www.openstreetmap.org/relation/441223)| |	   
 |Trutnov|Královéhradecký|[Polygony GPS](http://polygons.openstreetmap.fr/?id=442413)|[Mapa](https://www.openstreetmap.org/relation/442413)| |	   
